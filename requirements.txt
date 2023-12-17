@@ -1,4 +1,4 @@
 fastapi
-g4f
+g4f==0.1.8.0
 uvicorn
 requests
