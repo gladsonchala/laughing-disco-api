@@ -1,0 +1,4 @@
+fastapi
+g4f
+uvicorn
+requests
