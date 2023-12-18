@@ -8,6 +8,10 @@ app = FastAPI()
 #provider_instance = G4Frees()
 provider_instance = LexicaProvider()
 
+@app.get("/")
+def welcome():
+    return {"message": "Welcome to the OMG AI!!! \nPlease use Telegram bot to interact with me. search as OMG BOT!"}
+
 @app.post("/api/deebisi/")
 def deebisi_endpoint(user_message: str):
     try:
