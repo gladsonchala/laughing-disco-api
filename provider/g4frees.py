@@ -11,7 +11,7 @@ class G4Frees:
                 model=self.model,
                 provider=g4f.Provider.HuggingChat,
                 messages=[
-                    {"role": "user", "content": f"{themessage} IMPORTANT: Don't write another shits except your thoughts(1 sentence) and answer of the user's question(after thought 1 sentence. not related to thought): >> {user_message} <<"}
+                    {"role": "user", "content": user_message}
                 ],
             )
 
